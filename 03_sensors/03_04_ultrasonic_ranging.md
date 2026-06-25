@@ -140,5 +140,6 @@ distance=pingTime*soundVelocity//2//10000
 
 - Add a check that returns an error/`None` if `getSonar()` waits too long (the object may be out of range).
 - Trigger an LED or buzzer when the distance falls below a threshold (e.g. a proximity alarm).
+- Make the distance number show up in a LCD1602 
 
 > Adapted from [Python_Tutorial.pdf](../Python_Tutorial.pdf) Project 21.1
